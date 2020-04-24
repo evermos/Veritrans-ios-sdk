@@ -14,7 +14,6 @@
 #import "MidtransPaymentRequestV2ItemDetails.h"
 #import "MidtransPaymentRequestV2Callbacks.h"
 #import "MidtransTransactionExpire.h"
-#import "MidtransPromoDataModels.h"
 
 NSString *const kMidtransPaymentRequestV2ResponseTransactionDetails = @"transaction_details";
 NSString *const kMidtransPaymentRequestV2ResponseEnabledPayments = @"enabled_payments";
