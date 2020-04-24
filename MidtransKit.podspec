@@ -13,7 +13,7 @@ s.requires_arc = true
 s.subspec 'UI' do |sp|
 end
 
-s.source_files = 'MidtransKit/MidtransKit/**/*.{h,m}'
+s.source_files = 'Sources/MidtransKit/MidtransKit/**/*.{h,m}'
 s.resource_bundles = {
     'MidtransKit' => ['MidtransKit/MidtransKit/resources/*']
 }
