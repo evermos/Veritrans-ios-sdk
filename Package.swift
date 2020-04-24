@@ -24,11 +24,11 @@ let package = Package(
         .target(
             name: "MidtransCoreKit",
             dependencies: [],
-            path: "Sources/MidtransCoreKit"),
+            path: "Sources/MidtransCoreKit/MidtransCoreKit"),
         .target(
             name: "MidtransKit",
             dependencies: ["MidtransCoreKit"],
-            path: "Sources/MidtransKit"),
+            path: "Sources/MidtransKit/MidtransKit"),
         .testTarget(
             name: "MidtransCoreKitTests",
             dependencies: ["MidtransCoreKit"]),
