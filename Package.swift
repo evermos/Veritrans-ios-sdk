@@ -31,11 +31,5 @@ let package = Package(
             dependencies: ["MidtransCoreKit"],
             path: "Sources/MidtransKit/MidtransKit",
             publicHeadersPath: "Sources/MidtransKit/MidtransKit"),
-        .testTarget(
-            name: "MidtransCoreKitTests",
-            dependencies: ["MidtransCoreKit"]),
-        .testTarget(
-            name: "MidtransKitTests",
-            dependencies: ["MidtransKit"]),
     ]
 )
